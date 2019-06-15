@@ -418,8 +418,8 @@ console.log( 'The most items sold in a single transaction is:', Math.max(...most
   Calculate the sum of the 'purchase' with the fewest items.
 */
 const sumOfSmallestPurchase = transactions.filter(transaction => transaction.type === "purchase")
-.map(type => type.items)
-.map(item => item.length)
+                                           .map(type => type.items)
+                                           .map(item => item.length)
 
 
 
